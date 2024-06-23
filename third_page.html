@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Оставить комментарий</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html#introduction">Введение</a></li>
+          <li><a href="index.html#tools">Инструменты</a></li>
+          <li><a href="index.html#language">Языки</a></li>
+          <li><a href="second_page.html">Перейти на 2ю страницу</a></li>
+          <li><a href="#">Оставить комментарий</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="form_wrapper">
+        <form action="" method="get">
+          <div class="row_form">
+            <label for="name_user">
+              Имя:
+              <input
+                id="name_user"
+                name="nameUser"
+                type="text"
+                placeholder="Введите имя"
+              />
+            </label>
+            <label for="surname_user">
+              Фамилия:
+              <input
+                id="surname_user"
+                name="surnameUser"
+                type="text"
+                placeholder="Введите фамилию"
+              />
+            </label>
+          </div>
+
+          <div class="row_form">
+            <label for="email_user"
+              >@:
+              <input
+                id="email_user"
+                name="emailUser"
+                type="email"
+                placeholder="Необходио указать email"
+            /></label>
+            <label for="age_user"
+              >Дата рождения:
+              <input
+                id="age_user"
+                name="ageUser"
+                type="date"
+                placeholder="Введите дату своего рождения "
+            /></label>
+          </div>
+          <label for="experience_user"
+            >Количество лет в сфере frontend-разработки:
+            <input
+              id="experience_user"
+              name="experienceUser"
+              min="0"
+              step="1"
+              type="number"
+              placeholder="0"
+          /></label>
+          <label for="comment_user">
+            Комментарий
+            <textarea
+              id="comment_user"
+              name="commentUser"
+              cols="30"
+              rows="10"
+              placeholder="Введите свой комментарий"
+            ></textarea>
+          </label>
+          <input class="submit_input" type="submit" value="Отправить" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html#introduction">Введение</a></li>
+          <li><a href="index.html#tools">Инструменты</a></li>
+          <li><a href="index.html#language">Языки</a></li>
+          <li><a href="second_page.html">Перейти на 2ю страницу</a></li>
+          <li><a href="#">Оставить комментарий</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p>
+          Позвоните нам: <a href="tel:7(495) 518-94-11">7(495) 518-94-11</a>
+        </p>
+        <p>
+          Напишите нам:
+          <a href="mailto:frontend@frontend.com">frontend@frontend.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
